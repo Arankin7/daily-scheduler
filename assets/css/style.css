@@ -42,6 +42,7 @@ textarea{
   border-top: 1px dashed #000000;
   border-right: 1px solid black;
   border-top-right-radius: 3px;
+  height: 100%;
   font-size: 1.1em;
 }
 
@@ -64,13 +65,16 @@ textarea{
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
+  height: 100%;
   background-color: #06AED5;
-  color: white;
+  color: wheat;
+  
 }
 
 .saveBtn:hover {
   font-size: 20px;
   transition: all .3s ease-in-out;
+  color: black;
 }
 
 ul {
